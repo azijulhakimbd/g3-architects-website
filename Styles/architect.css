@@ -23,10 +23,14 @@
    }
    .banner-img{
     width: 100%;
-    margin: 0 auto;
+    margin:0 auto;
    }
 
 /* Shared style */
+.section-tittle{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
 .display-flex{
     display: flex;
 }
@@ -84,10 +88,6 @@ main > section{
   margin-left: 130px;
   max-width: 530px;
 }
-.feature-tittle{
-  font-size: 2.8rem;
-  font-weight: 700;
-}
 #quick-list{
   font-weight: 500;
 }
@@ -113,4 +113,14 @@ main > section{
     .our-features{
       margin-left: 20px;
     }
+  }
+  /* medium size device */
+  @media screen and (min-width:576px) and (max-width:992px) {
+    .teams{
+      flex-direction: column;
+    }
+    .our-features{
+      margin: 50px auto;
+    }
+    
   }
